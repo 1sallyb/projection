@@ -1,0 +1,13 @@
+prefix=/Users/sallybrumage/Desktop/projectone/venv
+exec_prefix=/Users/sallybrumage/Desktop/projectone/venv
+libdir=/Users/sallybrumage/Desktop/projectone/venv/lib
+sharedlibdir=/Users/sallybrumage/Desktop/projectone/venv/lib
+includedir=/Users/sallybrumage/Desktop/projectone/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
